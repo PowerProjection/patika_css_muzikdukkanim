@@ -1,0 +1,124 @@
+.centerHeader {
+    display:flex; 
+    flex:1;
+    flex-direction:column; 
+    justify-content:center;
+    align-items: center;
+}
+
+.content {
+    max-width: 700px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    font-size: 1.5em;
+    color: black;
+    text-decoration-line: none;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+
+nav a:hover {
+    color: crimson;
+    text-decoration-line: underline;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: 900;
+    color: darkviolet;
+}
+
+.p-content {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.p-title {
+    font-weight: bold;
+}
+
+.p-card {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    border: 1px dotted black;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.p-info {
+    font-size: 1.3em;
+}
+
+.p-price {
+    font-size: 1.3em;
+    color: rgba(155, 6, 6, 0.904);
+    font-weight: 900;
+    text-align: right;
+}
+
+.p-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.desc-text {
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.4em;
+    line-height: 30px;
+}
+
+.content ul {
+    font-size: 1.3em;
+    margin: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid crimson;
+    border-radius: 30px;
+    
+}
+
+.content li {
+    list-style-position: inside;
+    color: darkred;
+    font-weight: bold;
+    margin: 10px;
+    list-style-type: "♫";
+}
+
+.t-hr {
+    width: 150px;
+    border: dashed 1px;
+    border-color: darkgoldenrod;
+    margin-top: -10px;
+}
+
+li span {
+    margin-left: 10px;
+}
