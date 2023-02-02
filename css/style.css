@@ -122,3 +122,9 @@ nav a:hover {
 li span {
     margin-left: 10px;
 }
+
+p.mavi {
+    color:blueviolet;
+    font-weight: bold;
+    font-size: 2em;
+}
